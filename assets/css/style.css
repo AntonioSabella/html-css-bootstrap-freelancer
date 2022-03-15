@@ -1,0 +1,45 @@
+/* #region Debug */
+
+#site_header {
+    width: 100%;
+}
+
+#site_nav {
+    width: 100%;
+}
+
+.debug .show {
+    border: 1px solid white;
+    height: 100px;
+  /*   width: 70%; */
+}
+
+.debug .show_nav {
+    border: 1px solid white;
+    height: 100px;
+}
+
+.debug .show_main {
+    border: 1px solid white;
+    height: 300px;
+  /*   width: 80%; */
+}
+
+.debug .show1 {
+    border: 1px solid white;
+    height: 200px;
+ /*    width: 50%; */
+}
+
+.debug .show2 {
+    border: 1px solid white;
+    height: 500px;
+}
+
+.debug .show_contact {
+    border: 1px solid white;
+    height: 150px;
+   /*  width: 55%; */
+}
+
+/* #endregion Debug */

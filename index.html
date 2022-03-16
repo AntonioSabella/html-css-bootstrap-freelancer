@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Bootstrap Freelancer</title>
@@ -12,43 +13,32 @@
 <body class="debug">
 
     <header id="site_header">
-        <nav id="site_nav" class="navbar navbar-expand-lg navbar-dark bg_nav-footer-bottom ">
-            <div class="container-fluid">
-              <a class="navbar-brand text-uppercase href="#">Start Bootstrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <div id="site_nav" class="">
+            <nav  class="navbar navbar-expand-lg navbar-dark bg_nav-footer-bottom container-fluid p-4 ">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-uppercase navbar_collpase href="#">Start Bootstrap</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse navbar_collpase" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact
+                        </a>
+                      </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        <!-- /#site_nav -->
+                  </div>
+                </div>
+              </nav>
+            <!-- /#site_nav -->
+        </div>
         <div class=".container-fluid container-md container-lg">
             <div class="row row-cols-1">
                 <div class="col text-center pt-2">
@@ -61,8 +51,7 @@
                 <!-- /.col-12 -->
                 <div class="col text-center">
                     <div class="row justify-content-center align-items-center">
-                        
-                        <span class="col-6 text-white fs-1 d-flex justify-content-center align-items-center">
+                         <span class="col-6 text-white fs-1 d-flex justify-content-center align-items-center">
                             <hr class="border border-white border-3 rounded w-50">
                             &starf;
                             <hr class="border border-white border-3 rounded w-50">
@@ -72,7 +61,7 @@
                 </div>
                 <!-- /.col-12 -->
                 <div class="col text-center">
-                    <p class="text-white fs-3 pt-2">Graphic Artist - Web Design - Illustrator</p>
+                    <p class="text-white fs-3 pt-2 pb-3">Graphic Artist - Web Design - Illustrator</p>
                 </div>
                 <!-- /.col-12 -->
             </div>
@@ -83,73 +72,159 @@
     <!-- /.site_header -->
 
     <main id="site_main">
-        <div class="container bg-light mt-4 mb-4">
+        <div class="container mt-4 mb-4">
             <div class="row justify-content-center gy-4">
-                <div class="col-12 bg-success rounded show_main"></div>
+                <div class="col-12 rounded"> 
+                    <h2 class="text-dark text-center">Portfolio</h2>
+                    <div class="row justify-content-center align-items-center">
+                        
+                        <span class="col-6 text-dark fs-1 d-flex justify-content-center align-items-center">
+                            <hr class="border border-dark border-3 rounded w-50">
+                            &starf;
+                            <hr class="border border-dark border-3 rounded w-50">
+                        </span>
+                        
+                    </div>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/cabin.png" alt="">
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/cake.png" alt="">
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/circus.png" alt="">
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/game.png" alt="">
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/safe.png" alt="">
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto bg-success rounded show_main"></div>
+                <div class="col-12 col-md-6 col-lg-4 ms-auto me-auto rounded">
+                    <img class="rounded" src="./assets/img/submarine.png" alt="">
+                </div>
                 <!-- /.col-12 -->
           
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
-        <div class="container p-4 bg-primary">
+        <div class="container-fluid p-4 bg_success rounded">
             <div class="row justify-content-center">
-                <div class="col-12 bg-warning show"></div>
+                <div class="col-12 w-60">
+                    <h2 class="text-white text-center text-uppercase">About</h2>
+                    <div class="row justify-content-center align-items-center">
+                        <span class="col-6 text-white fs-1 d-flex justify-content-center align-items-center">
+                           <hr class="border border-white border-3 rounded w-50">
+                           &starf;
+                           <hr class="border border-white border-3 rounded w-50">
+                       </span>
+                       
+                   </div>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 bg-info show"></div>
+                <div class="col-12 col-md-6">
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dicta ipsam recusandae ipsa dignissimos nobis delectus accusantium repellendus mollitia, voluptatem ratione nulla aliquid magni cum suscipit eligendi numquam distinctio nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam error ratione quod voluptate expedita nisi quidem illum deserunt, sed quae esse suscipit sapiente ipsa eos debitis nam! Blanditiis, earum recusandae!</p>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-6 bg-warning show"></div>
+                <div class="col-12 col-md-6">
+                    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestias alias corporis laborum quas odit expedita quasi, iste fuga ipsam a similique doloremque aspernatur commodi quidem! Ducimus assumenda aut ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam error ratione quod voluptate expedita nisi quidem illum deserunt, sed quae esse suscipit sapiente ipsa eos debitis nam! Blanditiis, earum recusandae!</p>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 bg-info show"></div>
+                <div class="col-12 text-center">
+                    <button type="button" class="btn btn-outline-light"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</button>
+                </div>
                 <!-- /.col-12 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
 
-        <div class="container p-4 bg-light">
+        <div class="container p-4 px-5">
            <div class="row justify-content-center">
-            <div class="col-12 bg-warning show_contact"></div>
-            <!-- /.col-12 -->
-            <div class="col-12 bg-info show_contact"></div>
-            <!-- /.col-12 -->
-            <div class="col-12 bg-warning show_contact"></div>
-            <!-- /.col-12 -->
-           </div>
+                <div class="col-12">
+                    <h2 class="text-dark text-center text-uppercase">Contact me</h2>
+                    <div class="row justify-content-center align-items-center">
+                        <span class="col-6 text-dark fs-1 d-flex justify-content-center align-items-center">
+                        <hr class="border border-dark border-3 rounded w-50">
+                        &starf;
+                        <hr class="border border-dark border-3 rounded w-50">
+                    </span>
+                    
+                </div>
+                </div>
+                <!-- /.col-12 -->
+                <div class="col-12">
+                    <form>
+                        <div class="mb-1 ">
+                          <label for="exampleInputEmail1" class="form-label"></label>
+                          <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                        </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label"></label>
+                            <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                          </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label"></label>
+                            <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                          </div>
+                        <div class="mb-6 mb_21">
+                            <label for="exampleInputEmail1" class="form-label"></label>
+                            <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message">
+                          </div>
+                          <hr>
+                        <button type="submit" class="btn btn-success bg_success">Send</button>
+                      </form>
+                </div>
+                <!-- /.col-12 -->
+            </div>
         </div>
         <!-- /.container -->
     </main>
     <!-- /#site_main -->
 
     <footer id="site_footer">
-        <div class="container mt-4 bg-light">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-4 bg-warning show"></div>
+        <div class="container-fluid mt-4 bg_footer_top">
+            <div class="row justify-content-center pt-5 pb-5">
+                <div class="col-12 col-md-4 justify-content-center d-flex align-items-center">
+                    <p class="text-uppercase text-white text-center">Location <br> 2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-4 bg-warning show"></div>
+                <div class="col-12 col-md-4 justify-content-center align-items-center pt-4">
+                    <p class="text-uppercase text-white text-center">Around the Web</p>
+                    <div class="d-flex justify-content-center gx-5">
+                        <div class="border border-2 border-white rounded-circle p-2"><i class="fa-brands fa-facebook text-white fa-2x" aria-hidden="true"></i></div>
+                        <div class="border border-2 border-white rounded-circle p-2"><i class="fa-brands fa-google-plus text-white fa-2x" aria-hidden="true"></i></div>
+                        <div class="border border-2 border-white rounded-circle p-2"><i class="fa-brands fa-twitter text-white fa-2x" aria-hidden="true"></i></div>
+                        <div class="border border-2 border-white rounded-circle p-2"><i class="fa-brands fa-linkedin text-white fa-2x" aria-hidden="true"></i></div>
+
+                    </div>
+                </div>
                 <!-- /.col-12 -->
-                <div class="col-12 col-md-4 bg-warning show"></div>
+                <div class="col-12 col-md-4 justify-content-center d-flex align-items-center pt-4">
+                    <p class="text-white text-center pb-3"> <span class="text-uppercase">About Freelancer</span>   <br> <span>Freelance is a free to use, open source Bootstrap <br> Theme created by <a class="a_color_unstyled" href="#">Start Bootstrap</a></span></p>
+                    
+                    
+                </div>
                 <!-- /.col-12 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
 
-        <div class="container">
+        <div class="container-fluid bg_nav-footer-bottom">
             <div class="row justify-content-center">
-                <div class="col-12 bg-danger show"></div>
+                <div class="col-12 text-white justify-content-center d-flex align-items-center show">
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                    Copyright Your website 2022
+                </div>
                 <!-- /.col-12 -->
             </div>
             <!-- /.row -->
@@ -157,6 +232,17 @@
         <!-- /.container -->
     </footer>
     <!-- /#site_footer -->
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
     
 </body>
 </html>

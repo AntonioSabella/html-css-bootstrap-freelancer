@@ -8,49 +8,53 @@
 
 /* #region Debug */
 
-#site_header {
+/* #site_header {
     width: 100%;
 }
 
 #site_nav {
     width: 100%;
-}
+} */
 
 .debug .show {
-    border: 1px solid white;
+  /*   border: 1px solid white; */
     height: 100px;
   /*   width: 70%; */
 }
 
-.debug .show_nav {
+/* .debug .show_nav {
     border: 1px solid white;
     height: 100px;
-}
+} */
 
-.debug .show_main {
+/* .debug .show_main {
     border: 1px solid white;
     height: 300px;
-  /*   width: 80%; */
-}
+   width: 80%;
+} */
 
-.debug .show1 {
+/* .debug .show1 {
     border: 1px solid white;
     height: 200px;
- /*    width: 50%; */
-}
+    width: 50%;
+} */
 
-.debug .show2 {
+/* .debug .show2 {
     border: 1px solid white;
     height: 500px;
-}
+} */
 
-.debug .show_contact {
+/* .debug .show_contact {
     border: 1px solid white;
     height: 150px;
-   /*  width: 55%; */
-}
+    width: 55%;
+} */
 
 /* #endregion Debug */
+
+img {
+    max-width:100%;
+}
 
 /* #region Header */
 
@@ -68,6 +72,10 @@
     background-color: var(--bg-nav-footer-bottom);
 }
 
+.navbar_collpase {
+    flex-grow: 0;
+}
+
 /* #endregion Nav */
 
 
@@ -75,7 +83,31 @@
 /* #endregion Header */
 
 /* #region Main */
+
+.bg_success {
+    background-color: var(--color-primary);
+}
+
+.mb_21 {
+    margin-bottom: 11rem;
+} 
+
+.form_control {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid var(--color-text-dark);
+}
+
 /* #endregion Main */
 
 /* #region Footer */
+
+.bg_footer_top {
+    background-color: var(--bg-footer-top);
+}
+
+.a_color_unstyled {
+    color: var(--color-primary);
+    text-decoration: none;
+}
 /* #endregion Footer */

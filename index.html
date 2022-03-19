@@ -13,15 +13,15 @@
 <body class="debug">
 
     <header id="site_header">
-        <div id="site_nav" class="">
-            <nav  class="navbar navbar-expand-lg navbar-dark bg_nav-footer-bottom container-fluid p-4 ">
+        <div id="site_nav">
+            <nav class="navbar navbar-expand-lg navbar-dark bg_nav-footer-bottom px-0 py-3 ">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-uppercase navbar_collpase" href="#">Start Bootstrap</a>
+                  <a class="navbar-brand text-uppercase navbar_collpase fw-bold" href="#">Start Bootstrap</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse navbar_collpase text-uppercase text-white id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class=" collapse navbar-collapse navbar_collpase text-uppercase text-white" id="navbarSupportedContent">
+                    <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
                       </li>
@@ -36,24 +36,24 @@
                     </ul>
                   </div>
                 </div>
-              </nav>
+            </nav>
             <!-- /#site_nav -->
         </div>
-        <div class="jumbotron container-fluid container-md container-lg py-5">
+        <div class="jumbotron container-fluid container-md container-lg py-4">
             <div class="row row-cols-1">
                 <div class="col text-center pt-2">
                     <img height="200" src="./assets/img/avatar.svg" alt="smile face">
                 </div>
                 <!-- /.col-12 -->
                 <div class="col">
-                    <h1 class="text-uppercase text-white text-center pt-2">Start bootstrap</h1>
+                    <h1 class="text-uppercase text-white text-center pt-2 mb-3 fw-bold">Start bootstrap</h1>
                 </div>
                 <!-- /.col-12 -->
                 <div class="col text-center">
                     <div class="row justify-content-center align-items-center">
                          <div class="col-6 text-white fs-1 d-flex justify-content-center align-items-center">
                              <div class="star d-flex align-items-center justify-content-center">
-                                 <i class="fa-solid fa-star mx-3  "></i>
+                                 <i class="fa-solid fa-star mx-3 fa-xs"></i>
                              </div>
                 
                          </div>
@@ -61,8 +61,8 @@
                     </div>
                 </div>
                 <!-- /.col-12 -->
-                <div class="col text-center">
-                    <p class="text-white fs-3 pt-2 pb-3 display-2">Graphic Artist - Web Design - Illustrator</p>
+                <div class="col text-center mt-2">
+                    <p class="text-white fs-3 pt-3 pb-2 display-2 fw-bold">Graphic Artist - Web Design - Illustrator</p>
                 </div>
                 <!-- /.col-12 -->
             </div>
@@ -117,7 +117,7 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
-        <div class="about container-fluid p-4 bg_success rounded">
+        <div class="about container-fluid p-4 bg_success">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 w-60">
@@ -128,8 +128,7 @@
                                     <i class="fa-solid fa-star mx-3  "></i>
                                 </div>
                            </div>
-                           
-                       </div>
+                        </div>
                     </div>
                     <!-- /.col-12 -->
                     <div class="col-12 col-md-6 pt-2">
@@ -165,26 +164,24 @@
                     </div>
                 </div>
                 <!-- /.col-12 -->
-                <div class="col-12">
-                    <form>
-                        <div class="mb-1 ">
-                          <label for="exampleInputEmail1" class="form-label"></label>
-                          <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                <div class="col-12 d-flex justify-content-center">
+                    <form class="w-50">
+                        <div class="mb-3">
+                          <input type="text" name="name" id="name" class="form-control border-0 rounded-0 border-bottom" placeholder="Name" aria-describedby="helpId">
                         </div>
-                        <div class="mb-1">
-                            <label for="exampleInputEmail1" class="form-label"></label>
-                            <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                        <div class="mb-3">
+                          <input type="email" class="form-control border-0 rounded-0 border-bottom" id="email" name="email" aria-describedby="emailHelp" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control border-0 rounded-0 border-bottom" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                          <textarea class="form-control border-0 rounded-0 border-bottom" name="message" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-success bg_success">Send</button>
                           </div>
-                        <div class="mb-1">
-                            <label for="exampleInputEmail1" class="form-label"></label>
-                            <input type="email" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
-                          </div>
-                        <div class="mb-6 mb_21">
-                            <label for="exampleInputEmail1" class="form-label"></label>
-                            <input type="text" class="form-control form_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message">
-                          </div>
-                          <hr>
-                        <button type="submit" class="btn btn-success bg_success">Send</button>
                       </form>
                 </div>
                 <!-- /.col-12 -->

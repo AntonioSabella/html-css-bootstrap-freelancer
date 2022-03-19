@@ -52,9 +52,41 @@
 
 /* #endregion Debug */
 
+/* #region Commons */
+
 img {
     max-width:100%;
 }
+
+.jumbotron .star::after,
+.jumbotron .star::before,
+.about .star::before,
+.about .star::after {
+    background-color: white;
+}
+
+.portfolio .star::after,
+.portfolio .star::before,
+.contact_me .star::before,
+.contact_me .star::after {
+    background-color: black;
+}
+
+
+
+.star::after, .star::before {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* #endregion Commons */
+
+
 
 /* #region Header */
 
